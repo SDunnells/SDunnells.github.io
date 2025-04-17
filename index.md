@@ -1,6 +1,3 @@
- layout
-default
-
 Text can be bold, italic, or strikethrough.
 
 Link to another page.
