@@ -1,4 +1,4 @@
-Text can be bold, italic, or strikethrough.
+Text can be **bold**, *italic*, or ~~strikethrough~~.
 
 Link to another page.
 
