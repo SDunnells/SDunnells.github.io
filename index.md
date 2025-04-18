@@ -6,13 +6,17 @@ There should be whitespace between paragraphs.
 
 There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
 
-# Header 1
+## Project Purpose
 
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+The purpose of this project was to showcase skills that I have learned while completing my Bachelor's in Computer Science. I was tasked with making three separate updates to projects completed in previous courses. I chose to take one project and upgrade it for each category rather than picking a new project for each category. I did this because I wanted to show how different the same project completed at an early stage of my degree would be if I did it now. Originally, I planned to accomplish this by rewriting this project into a standalone web application. I was not able to complete this goal due to personal time constraints, but I was able to make three updates that improved the program in meaningful ways. 
 
-## Header 2
+## Chosen Artifact
 
-> This is a blockquote following a header.
+As mentioned above, I have chosen to make multiple updates to one artifact rather than using a few artifacts. The artifact I chose to use was my project from CS-340. In this course, I was tasked with creating an application for Grazios Salvare, an organization that trains rescue animals. The application was to take a database of animals and display them in a datatable. I was also provided with a list of criteria that are considered when animals are selected for different types of rescue. The client wanted each of these types of rescue to be an option when sorting the datatable. When one of these options is selected, the datatable needs to be filtered and only show animals that match the specified criteria. The client also requested that a map and a graph be added. The map would show the location of any selected animals so the user can see how far away the animal is. The graph was made to show the distribution of animals that were currently shown in the datatable. I was able to complete all of this in the original project, but I wanted to go back over this and see what I may do differently now that I have more experience.
+
+## Category 1: Software Engineering and Design
+
+With this update, I aim to show how I have grown as a software engineer by evolving the existing code into a more complete and polished project. The original code was tested by
 
 > When something is important enough, you do it even if the odds are not in your favor.
 
