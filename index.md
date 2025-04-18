@@ -16,7 +16,9 @@ As mentioned above, I have chosen to make multiple updates to one artifact rathe
 
 ## Category 1: Software Engineering and Design
 
-With this update, I aim to show how I have grown as a software engineer by evolving the existing code into a more complete and polished project. The original code was tested by
+* * *
+
+With this update, I aim to show how I have grown as a software engineer by evolving the existing code into a more complete and polished project. The original code was tested by running the site and manually navigating through the site to the module that you are trying to test. This is not a good way to ensure code is working, as the server had to be restarted every time an update was made. To address this, I wanted to make a test module that would ensure each function was working properly before the code was run. I wrote a basic test module that, when run, writes the return value of each test to the console so it is easy to see which test is failing and why.  
 
 > When something is important enough, you do it even if the odds are not in your favor.
 
