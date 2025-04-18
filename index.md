@@ -14,6 +14,8 @@ The purpose of this project was to showcase skills that I have learned while com
 
 ![Logo](https://github.com/SDunnells/SDunnells.github.io/blob/main/assets/img/Grazioso%20Salvare%20Logo.png)
 
+<img src="./assets/img/Grazioso Salvare Logo.png">
+
 As mentioned above, I have chosen to make multiple updates to one artifact rather than using a few artifacts. The artifact I chose to use was my project from CS-340. In this course, I was tasked with creating an application for Grazios Salvare, an organization that trains rescue animals. The application was to take a database of animals and display them in a datatable. I was also provided with a list of criteria that are considered when animals are selected for different types of rescue. The client wanted each of these types of rescue to be an option when sorting the datatable. When one of these options is selected, the datatable needs to be filtered and only show animals that match the specified criteria. The client also requested that a map and a graph be added. The map would show the location of any selected animals so the user can see how far away the animal is. The graph was made to show the distribution of animals that were currently shown in the datatable. I was able to complete all of this in the original project, but I wanted to go back over this and see what I may do differently now that I have more experience.
 
 ## Category 1: Software Engineering and Design
