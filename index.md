@@ -14,7 +14,9 @@ The purpose of this project was to showcase skills that I have learned while com
 
 <img src="./assets/img/Grazioso Salvare Logo.png">
 
-As mentioned above, I have chosen to make multiple updates to one artifact rather than using a few artifacts. The artifact I chose to use was my project from CS-340. In this course, I was tasked with creating an application for Grazios Salvare, an organization that trains rescue animals. The application was to take a database of animals and display them in a datatable. I was also provided with a list of criteria that are considered when animals are selected for different types of rescue. The client wanted each of these types of rescue to be an option when sorting the datatable. When one of these options is selected, the datatable needs to be filtered and only show animals that match the specified criteria. The client also requested that a map and a graph be added. The map would show the location of any selected animals so the user can see how far away the animal is. The graph was made to show the distribution of animals that were currently shown in the datatable. I was able to complete all of this in the original project, but I wanted to go back over this and see what I may do differently now that I have more experience.
+As mentioned above, I have chosen to make multiple updates to one artifact rather than using a few artifacts. The artifact I chose to use was my project from CS-340. In this course, I was tasked with creating an application for Grazios Salvare, an organization that trains rescue animals. The application was to take a database of animals and display them in a dataframe. I was also provided with a list of criteria that are considered when animals are selected for different types of rescue. The client wanted each of these types of rescue to be an option when sorting the dataframe. When one of these options is selected, the dataframe needs to be filtered and only show animals that match the specified criteria. The client also requested that a map and a graph be added. The map would show the location of any selected animals so the user can see how far away the animal is. The graph was made to show the distribution of animals that were currently shown in the dataframe. I was able to complete all of this in the original project, but I wanted to go back over this and see what I may do differently now that I have more experience.
+
+* * *
 
 ## Category 1: Software Engineering and Design
 
@@ -30,24 +32,17 @@ This image shows the test method for updating the database. The first test shows
 
 This image shows the test method for deleting items from the database. Again, the first line shows what the result is when the database contains items that match your search. The second line shows what happens when your search returns no items.
 
-> When something is important enough, you do it even if the odds are not in your favor.
+* * *
 
-### Header 3
-```javascript
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
+## Category 2: Algorithms and Data Structures
 
-#### Header 4
+* * *
+
+For this category, I only had one data structure to work with. I have a dataframe that displays the list of animals from the database. I decided to show my skills by making the dataframe reorganizable by column. I wanted the dataframe to be organized by every column by simply clicking the column title. The code will first get the column ID of the chosen column and then check it against a variable that will hold the last clicked column ID. If the variable is empty, meaning this is the first column chosen, the code saves the ID into the variable and adds 1 to an integer used to track how many times a column has been clicked. If the column ID matches the variable 1 is added to the integer. If the column ID does not match the variable, the column ID is saved over the variable, and the integer is set to 0 before having 1 added to it. Now the code will call one of the sort functions based on the integer value. If the integer is odd, the sort ascending function will be called, and if the integer is even, the sort descending function will be called. This will allow users to resort the data, switching between ascending and descending as many times as they want.
+
+<img src="./assets/img/sortfunc.png">
+
+## Header 4
 
 - This is an unordered list following a header.
 - This is an unordered list following a header.
