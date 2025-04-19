@@ -1,12 +1,4 @@
-Text can be **bold**, *italic*, or ~~strikethrough~~.
-
-Link to another page.
-
-There should be whitespace between paragraphs.
-
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
-
-## Project Purpose
+## Portfolio Purpose
 
 The purpose of this project was to showcase skills that I have learned while completing my Bachelor's in Computer Science. I was tasked with making three separate updates to projects completed in previous courses. I chose to take one project and upgrade it for each category rather than picking a new project for each category. I did this because I wanted to show how different the same project completed at an early stage of my degree would be if I did it now. Originally, I planned to accomplish this by rewriting this project into a standalone web application. I was not able to complete this goal due to personal time constraints, but I was able to make three updates that improved the program in meaningful ways. 
 
@@ -38,91 +30,14 @@ This image shows the test method for deleting items from the database. Again, th
 
 * * *
 
-For this category, I only had one data structure to work with. I have a dataframe that displays the list of animals from the database. I decided to show my skills by making the dataframe reorganizable by column. I wanted the dataframe to be organized by every column by simply clicking the column title. The code will first get the column ID of the chosen column and then check it against a variable that will hold the last clicked column ID. If the variable is empty, meaning this is the first column chosen, the code saves the ID into the variable and adds 1 to an integer used to track how many times a column has been clicked. If the column ID matches the variable 1 is added to the integer. If the column ID does not match the variable, the column ID is saved over the variable, and the integer is set to 0 before having 1 added to it. Now the code will call one of the sort functions based on the integer value. If the integer is odd, the sort ascending function will be called, and if the integer is even, the sort descending function will be called. This will allow users to resort the data, switching between ascending and descending as many times as they want.
+For this category, I only had one data structure to work with. I have a dataframe that displays the list of animals from the database. I decided to show my skills by making the dataframe reorganizable by column. I wanted the dataframe to be organized by every column by simply clicking the column title. The code will first get the column ID of the chosen column and then check it against a variable that will hold the last clicked column ID. If the variable is empty, meaning this is the first column chosen, the code saves the ID into the variable and adds 1 to an integer used to track how many times a column has been clicked. If the column ID matches, variable 1 is added to the integer. If the column ID does not match the variable, the column ID is saved over the variable, and the integer is set to 0 before having 1 added to it. Now, the code will call one of the functions based on the integer value. If the integer is odd, the sort ascending function will be called, and if the integer is even, the sort descending function will be called. This will allow users to sort the data, switching between ascending and descending as many times as they want.
 
 <img src="./assets/img/sortfunc.png">
 
-## Header 4
+* * *
 
-- This is an unordered list following a header.
-- This is an unordered list following a header.
-- This is an unordered list following a header.
-
-##### Header 5
-
-1. This is an ordered list following a header.
-2. This is an ordered list following a header.
-3. This is an ordered list following a header.
-
-###### Header 6
-
-| head1        | head two          | three |
-| :----------- | :---------------- | :---- |
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
-
-### There's a horizontal rule below this.
+## Category Three: Databases
 
 * * *
 
-### Here is an unordered list:
-
-*  Item foo
-*  Item bar
-*  Item baz
-*  Item zip
-
-And an ordered list:
-
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
-
-And a nested list:
-
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-level 1 item
-
-### Small image
-
-Octocat
-
-### Large image
-
-Branching
-
-### Definition lists can be used with HTML syntax.
-
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
-
-```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-```
-
-```
-The final element.
-```
-
+The original project already worked with a database, but the functions that I built were very basic. The original artifact took a dictionary and inserted it into the database, never confirming any information. This can cause some major problems, so I reworked the code to not only verify that the information is an appropriate size, but that any important information is present before adding the animal. Rather than just checking if the dictionary is empty or not, I set up a function that checks each of the customer-identified important sections. This function verifies that the required information is entered and the size of the data. Finall,y I also added a step to verify that the animal's ID is unique, so there are no instances of multiple animals with the same ID.
